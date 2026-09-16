@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
         <title>AWS DevOps Student Project</title>
       </head>
       <body style="font-family:Arial; margin:40px">
-        <h1>AWS DevOps CI/CD is Working!</h1>
+        <h1>AWS DevOps CI/CD Pipeline Successfully Deployed!!</h1>
         <p>Deployed automatically using CodePipeline + CodeBuild + CodeDeploy.</p>
         <p>Environment: Amazon EC2</p>
         <p><a href="/health">Health Check</a></p>
