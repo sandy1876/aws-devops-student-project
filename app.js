@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
       </head>
       <body style="font-family:Arial; margin:40px">
         <h1>AWS DevOps CI/CD Pipeline Successfully Deployed!!</h1>
-        <p>Deployed automatically using CodePipeline + CodeBuild + CodeDeploy.</p>
+        <p>Deployed automatically using Jenkins + Docker + Ansible.</p>
         <p>Environment: Amazon EC2</p>
         <p><a href="/health">Health Check</a></p>
       </body>
